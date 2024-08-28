@@ -8,5 +8,9 @@
       "matches": ["https://*.cda.pl/video/*"],
       "js": ["adblocker.js"]
     }
-  ]
+  ],
+  "icons": {
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
 }
