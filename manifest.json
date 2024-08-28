@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "CDA Adblock",
+  "description": "Block ads on cda.pl",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://*.cda.pl/video/*"],
+      "js": ["adblocker.js"]
+    }
+  ]
+}
